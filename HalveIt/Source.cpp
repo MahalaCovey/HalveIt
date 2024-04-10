@@ -15,6 +15,10 @@ T half(T num)
 	return num / 2;
 }
 
+//****************************************************************************************
+// The explicitly-defined half function returns the the half value of a number, rounded. *
+//****************************************************************************************
+
 int half(int num)
 {
 	return round(static_cast<float>(num) / 2);
